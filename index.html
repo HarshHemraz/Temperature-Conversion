@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <form>
+        <h2>Temperature Conversion</h2>
+
+        <p>This temperature app converts Celcius(°C) to Fahrenheit(°F)</p>
+        <input type="text" id="inptxt" value="0" /> <br /> <br />
+
+        <input type="radio" id="tocelcius" name="conversion" />
+        <label for="tocelcius">Ferenheit ----> Celcius</label> <br />
+
+        <input type="radio" id="toferenheit" name="conversion" />
+        <label for="toferenheit">Celcius ----> Ferenheit </label> <br /> <br />
+        
+        <button type="button" id="cbtn">Convert</button> <br />
+        <h2 id="outputtxt"></h2>
+
+    </form>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
